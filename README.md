@@ -1,6 +1,10 @@
-# TetrisBrainer
-App for high-level analysis of Tetris boards and gameplay
-Board on the left is the main analysis board - you can change the board state however you like or generate a puzzle with a random board and pieces.
-Click on the different block options for building blocks, temp blocks, and eraser. Temp blocks dissapear when the board is evaluated.
-Board on the right is for viewing StackRabbit playouts. Click on any point in the middle graph to view the 3-piece playout on the seconary board.
-Graphs of playout eval and piece-by-piece comparison are all togglable.
+TetrisBrainer
+A coaching and analysis tool for competitive Classic Tetris players. TetrisBrainer lets players analyze board states, compare their decision-making against top neural network engines, and interpret the network's reasoning through interactive visualizations.
+Features
+
+Board analysis: Edit board states freely or generate random puzzles with configurable pieces. Build using block tools, temp blocks (which disappear on evaluation), and eraser.
+Engine comparison: View StackRabbit's 3-piece playouts on the secondary board by clicking any point on the evaluation graph.
+Visualization: Toggleable graphs for playout evaluation and piece-by-piece comparison between player and engine choices.
+
+How it works
+The main board (left) is the analysis workspace. The secondary board (right) displays StackRabbit's suggested playouts. The middle graph shows evaluation scores across a sequence — click any point to view the corresponding playout state.
