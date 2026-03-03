@@ -1,2 +1,2 @@
 # TetrisBrainer
-Basically Tetris Trainer with some additions and quality of life changes
+App for high-level analysis of Tetris boards and gameplay
